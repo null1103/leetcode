@@ -46,8 +46,8 @@ public class ValidAnagram {
             }
         }
 
-        for(Character key:map.keySet()) {
-            if(map.get(key)!=0) {
+        for(int value:map.values()) {
+            if(value!=0) {
                 return false;
             }
         }

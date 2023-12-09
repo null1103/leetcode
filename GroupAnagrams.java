@@ -8,7 +8,7 @@ import java.util.*;
  *   - Store count of each character in the count array. Convert to string to use as map's key.
  *   - Add str to the corresponding value list for the key
  * 
- * Time:  O(m * n logn)  
+ * Time:  O(m * n)  
  * Space: O(m * n)
  */
 public class GroupAnagrams {
