@@ -1,3 +1,5 @@
+package problems;
+
 /**
  * Check if the middle element of sorted array is target. Otherwise,
  * - If target is less than middle element, check the left half of the array
