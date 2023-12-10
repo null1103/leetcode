@@ -5,7 +5,7 @@ package problems;
  * 
  * Iterate the array left to right.
  * If price on the right is higher, check if profit is greater than profit so far
- * If price on the right is lower, 
+ * If price on the right is lower, use this price further to see if there a higher profit
  * 
  * Time:  O(n)
  * Space: O(1)
