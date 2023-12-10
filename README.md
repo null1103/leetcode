@@ -4,7 +4,7 @@
 | 1. Two Sum | Hashmap | O(n) | O(n) |
 | 20. Valid Parentheses | Stack | O(n) | O(n) |
 | 21. Merge Two Sorted Lists |  |  |  |
-| 121. Best Time to Buy and Sell Stock |  |  |  |
+| 121. Best Time to Buy and Sell Stock | Two pointers | O(n) | O(1) |
 | 125. Valid Palindrome | Two pointers | O(n) | O(1) |
 | 226. Invert Binary Tree | Recursion | O(n) | O(n) |
 | 242. Valid Anagram | Hashmap | O(n) | O(n) |
