@@ -14,3 +14,17 @@
 | 110. Balanced Binary Tree |  |  |  |
 | 141. Linked List Cycle |  |  |  |
 | 232. Implement Queue using Stacks |  |  |  |
+| **Blind 75 (Week 2)** |
+| 278. First Bad Version |  |  |  |
+| 83. Ransom Note |  |  |  |
+| 70. Climbing Stairs |  |  |  |
+| 409. Longest Palindrome |  |  |  |
+| 206. Reverse Linked List |  |  |  |
+| 169. Majority Element |  |  |  |
+| 67. Add Binary |  |  |  |
+| 543. Diameter of Binary Tree |  |  |  |
+| 876. Middle of the Linked List |  |  |  |
+| 235. Lowest Common Ancestor of a Binary Search Tree |  |  |  |
+| 104. Maximum Depth of Binary Tree |  |  |  |
+| 217. Contains Duplicate |  |  |  |
+| 53. Maximum Subarray |  |  |  |
