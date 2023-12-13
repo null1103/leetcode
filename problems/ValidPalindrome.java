@@ -1,16 +1,17 @@
+package problems;
 /**
  * https://leetcode.com/problems/valid-palindrome
- * 
+ *
  * Use two pointers for the start and end of string
  * While start < end:
  * - If the current chars are not alphanumeric, increment start or decrement end accordingly
  * - If alphanumeric chars at start and end are not equal (ignore case), return false
  * - If chars at start and end are equal (ignore case), increment start and decrement end
- * 
+ *
  * Time:  O(n)
  * Space: O(1)
  */
-class ValidPalindrome {
+public class ValidPalindrome {
     public boolean isPalindrome(String s) {
         int start = 0;
         int end = s.length()-1;
@@ -31,6 +32,6 @@ class ValidPalindrome {
             start++;
             end--;
         }
-        return true;   
+        return true;
     }
 }
