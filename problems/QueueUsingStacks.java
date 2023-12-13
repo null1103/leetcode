@@ -1,6 +1,7 @@
 package problems;
 /**
  * https://leetcode.com/problems/implement-queue-using-stacks
+ * 
  * Stack1 is used as queue and Stack2 will be used to maintain the FIFO order while pushing
  * - Adds new element to stack1 if empty
  * - Otherwise, moves all the elements to stack2. Adds the new element to stack1 and moves elements from stack2 back to stack1
@@ -13,11 +14,11 @@ package problems;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-class MyQueue {
+public class QueueUsingStacks {
     Deque<Integer> stack1;
     Deque<Integer> stack2;
 
-    public MyQueue() {
+    public QueueUsingStacks() {
         stack1 = new ArrayDeque<>();
         stack2 = new ArrayDeque<>();
     }
