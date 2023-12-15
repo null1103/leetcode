@@ -1,10 +1,11 @@
+package problems;
 /**
  * https://leetcode.com/problems/product-of-array-except-self/
- * 
+ *
  * 1. Iterate the array from beginning to end and in the output array store the product of all the nums before
  * 2. Iterate the array again but from end to beginning and calculate product of all the nums after
  * 3. Multiply the two to get product of all nums except self
- * 
+ *
  * Time:  O(n)
  * Space: O(n)
  */
@@ -20,7 +21,7 @@ public class ProductExceptSelf {
                 result[i] = 1;
             } else {
                 result [i] = result[i-1]*nums[i-1];
-            } 
+            }
         }
 
         // Product of all the nums after num[i]
@@ -30,5 +31,5 @@ public class ProductExceptSelf {
             suffix = suffix * nums[j];
         }
         return result;
-    } 
+    }
 }

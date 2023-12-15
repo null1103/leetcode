@@ -1,14 +1,15 @@
+package problems;
 import java.util.*;
 
 /**
  * https://leetcode.com/problems/group-anagrams
- * 
+ *
  * HASHMAP
  * - Iterate through "strs" and for each string "str":
  *   - Store count of each character in the count array. Convert to string to use as map's key.
  *   - Add str to the corresponding value list for the key
- * 
- * Time:  O(m * n)  
+ *
+ * Time:  O(m * n)
  * Space: O(m * n)
  */
 public class GroupAnagrams {
